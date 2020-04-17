@@ -1,4 +1,4 @@
-![GemFairLogo](/public/assets/images/header-logo.jpg)
+![GemFairLogo](/public/assets/images/header_logo.jpg)
 
 # GemFair Next Website
 
