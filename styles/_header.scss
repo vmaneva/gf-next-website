@@ -1,0 +1,55 @@
+$link-margin: 22px 44px;
+.header-navigation {
+  height: 100%;
+  nav {
+    background: $gemfair-color-black;
+    height: 100%;
+    text-transform: uppercase;
+
+    & img {
+      height: 35px;
+      margin: 22px 0px;
+      width: 223px;
+    }
+
+    & a {
+      color: #ffffff;
+      font-size: 1.5rem;
+      text-decoration: none;
+    }
+  }
+
+  .nav-wrapper {
+    margin: 0 auto;
+    max-width: 1235px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+
+      &.nav-links--row {
+        display: flex;
+        > li {
+          margin: $link-margin;
+          padding-bottom: 4px;
+          cursor: pointer;
+          li.active {
+            border-bottom: 1px solid white;
+          }
+        }
+      }
+      &.nav-links--column {
+        display: flex;
+        flex-direction: column;
+        > li {
+          margin-top: 22px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

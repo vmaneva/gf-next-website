@@ -1,0 +1,49 @@
+//Use this file to store brand related variables
+
+$large: 24px;
+$base-weight: 500;
+$donovan-grey: #141414;
+
+$gemfair-color-orange: #f2a901;
+$gemfair-color-black: #2b2b2b;
+$gemfair-color-grey1: #d9d9d9;
+$gemfair-color-grey2: #f1f1f1;
+$gemfair-color-grey3: #e5e5e5;
+$gemfair-color-green: #65aa54;
+$gemfair-color-red: #d50000;
+$gemfair-color-green2: #29a800;
+
+$font-family-regular: "Barlow Condensed", sans-serif;
+$font-family-semibold: "Barlow Condensed SemiBold", sans-serif;
+$font-weight-medium: 500;
+$font-weight-bold: 600;
+
+$font-size-x-small: 0.8rem; //12px
+$font-size-small: 0.9rem; //14px
+$font-size-normal: 1rem; //16px , for small screen is 13px
+$font-size-medium: 1.15rem; //18px;
+$font-size-large: 1.3rem; //20px
+$font-size-x-large: 1.5rem; //24px;
+
+$year-report-h3: 1.85rem; //30px;
+$year-report-h2: 2.8rem; //45px;
+$year-report-border-green: 2px solid $gemfair-color-green;
+$year-report-border-orange: 2px solid $gemfair-color-orange;
+
+$year-report-line-height-x-small: 1rem; //16px;
+$year-report-line-height-small: 1.3rem; //22px;
+$year-report-line-height-medium: 1.7rem; //27px;
+$year-report-line-height-normal: 1.9rem; //30px;
+$year-report-line-height-large: 2.3rem; //36px;
+$year-report-line-height-xlarge: 3.5rem; //56px;
+$year-report-inner-padding: 10px 150px 10px;
+
+$desktop-screen-size: 1270px;
+$tablet-screen-size: 1026px;
+$mobile-screen-size: 750px;
+
+$background-overlay: rgba(43, 43, 43, 0.3);
+
+$navigation-height-large: 160px;
+$navigation-height-medium: 96px;
+$navigation-height-small: 70px;
